@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <title>Consulta CEP</title>
+    <script src='js/main.js'></script>
+    <script src='js/jquery-3.5.1.min.js'></script>
+</head>
+<body>
+    <input type="text" id="cep"/>
+    <button type="button" onclick="consultaCep()">Consultar</button>
+    <p> <span id="enderecoCompleto"/>
+        <dl>
+            <li><b>Logradouro:</b> <span id="logradouro"/></li>
+            <li><b>Bairo:</b> <span id="bairro"/></li>
+            <li><b>Cidade:</b> <span id="localidade"/></li>
+            <li><b>UF:</b> <span id="uf"/></li>
+        </dl>
+    </p>
+</body>
+</html>
